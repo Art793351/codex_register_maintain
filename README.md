@@ -87,7 +87,7 @@ ENV_FILE=/etc/vps_token_maintain.env bash /path/to/vps_token_maintain.sh
 ```
 
 ### 3) 配置 env
-
+> 先填好`.env.example`里的环境设置再安装
 ```bash
 install -m 600 .env.example /etc/vps_token_maintain.env
 nano /etc/vps_token_maintain.env
